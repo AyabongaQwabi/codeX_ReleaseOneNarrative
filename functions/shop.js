@@ -70,7 +70,7 @@ module.exports = function(){
 		}
 		this.getProducts = function(){
 
-				var path ='./files/NelisaSalesHistory.csv'
+				var path ='../files/NelisaSalesHistory.csv'
 				var file = fs.readFileSync(path) 
 				file=file.toString()
 				file= file.split('\r')
@@ -90,7 +90,7 @@ module.exports = function(){
 		}
 		this.getPrices = function(){
 
-				var path = '../Nelisa Sales History.csv'
+				var path = '../files/Nelisa Sales History.csv'
 				var file = fs.readFileSync(path) 
 				file=file.toString()
 				file= file.split('\r')
